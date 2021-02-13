@@ -1,3 +1,8 @@
 I just configure st for my personal use. Feel free to comment on it.
 
 To see orginal README, please check README-st
+
+Configurations:
+
+- patch "bold is not bright"
+- patch "cyclefonts" (with serveral fonts)
