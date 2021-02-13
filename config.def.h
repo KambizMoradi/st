@@ -5,7 +5,20 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack:size=24";
+static char *fonts[] = {
+  "Hack:size=22",
+  "Roboto Mono:size=22",
+  "Anonymous Pro:size=22",
+  "Bitstream Vera Sans Mono:size=22",
+  "Cantarell:size=22",
+  "DejaVu Sans Mono:size=22",
+  "NotoSansMono Nerd Font:size=22",
+  "Oxygen Mono:size=22",
+  "Share Tech Mono:size=22",
+  "Ubuntu Mono:size=22",
+};
+static int fonts_current = 0;
+
 static int borderpx = 0;
 
 /*
@@ -199,6 +212,7 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+    { TERMMOD,              XK_S,           cyclefonts,     {}        },
 };
 
 /*
