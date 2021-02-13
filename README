@@ -8,3 +8,4 @@ Changes:
 - patch "cyclefonts" (with serveral fonts)
 - patch "scrollback" (with mouse wheel)
 - patch "delkey"
+- patch "vertcenter"
