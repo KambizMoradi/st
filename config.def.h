@@ -6,16 +6,16 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *fonts[] = {
-  "Hack:size=22",
-  "Roboto Mono:size=22",
-  "Anonymous Pro:size=22",
-  "Bitstream Vera Sans Mono:size=22",
-  "Cantarell:size=22",
-  "DejaVu Sans Mono:size=22",
-  "NotoSansMono Nerd Font:size=22",
-  "Oxygen Mono:size=22",
-  "Share Tech Mono:size=22",
-  "Ubuntu Mono:size=22",
+  "Hack:size=18",
+  "Roboto Mono:size=18",
+  "Anonymous Pro:size=18",
+  "Bitstream Vera Sans Mono:size=18",
+  "Cantarell:size=18",
+  "DejaVu Sans Mono:size=18",
+  "NotoSansMono Nerd Font:size=18",
+  "Oxygen Mono:size=18",
+  "Share Tech Mono:size=18",
+  "Ubuntu Mono:size=18",
 };
 static int fonts_current = 0;
 
