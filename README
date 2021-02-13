@@ -6,3 +6,4 @@ Configurations:
 
 - patch "bold is not bright"
 - patch "cyclefonts" (with serveral fonts)
+- patch "scrollback" (with mouse wheel)
