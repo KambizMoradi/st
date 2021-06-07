@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *fonts[] = {
-  "Hack:size=18",
+  "Hack:size=20",
   "Roboto Mono:size=18",
   "Anonymous Pro:size=18",
   "Bitstream Vera Sans Mono:size=18",
@@ -19,7 +19,7 @@ static char *fonts[] = {
 };
 static int fonts_current = 0;
 
-static int borderpx = 0;
+static int borderpx = 8;
 
 /*
  * What program is execed by st depends of these precedence rules:
